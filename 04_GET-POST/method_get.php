@@ -43,8 +43,26 @@
             <div class="col-sm-8">
                 <main class="container-fluid">
                     <div class="row">
-
-                    </div>
+                        <hr>
+                        <h2 class="col-sm-12 text-center" id="definition"><u>1 - Introduction</u></h2>
+                        <div class="col-sm-12 col-md-6">
+                            <p>Il s'agit d'une superglobale et comme toutes le superglobales, c'est un tableau. Superglobale signifie que c'est une variable disponible partout dans le script, y compris au sein des fonctions. Les information transitent dans l'URL selon la syntaxe suivante: <code>mapage.php.?indice1=valeur1&indiceN=valeurN</code>.</p>
+                            <p>Quand on récupère les données, $_GET fabrique un tableau selont le schéma suivant: <code>$_GET = array("indice1" => "valeur1" , "indiceN" => "valeurN");</code></p>
+                        </div><!-- fin de la colonne -->
+                        <div class="col-sm-12 col-md-6 text-center">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4">
+                                    <a href="method_get-ex01.php?article=Jean&couleur=bleu&prix=55"><img src="../img/jean.jpg" alt="Jean bleu" class="img-fluid">Jean bleu</a>
+                                </div>
+                                <div class="col-sm-12 col-md-4">
+                                    <a href="method_get-ex01.php?article=Robe&couleur=rouge&prix=75"><img src="../img/robe.jpg" alt="Robe rouge" class="img-fluid">Robe rouge</a>
+                                </div>
+                                <div class="col-sm-12 col-md-4">
+                                    <a href="method_get-ex01.php?article=Pull&couleur=blanc&prix=55"><img src="../img/pull.jpg" alt="Pull blanc" class="img-fluid">Pull blanc</a>
+                                </div>
+                            </div>
+                        </div><!-- fin de la colonne -->
+                    </div><!-- fin de la rangée -->
                 </main>
             </div>
             <!-- FIN DU CONTENU PRINCIPAL -->
