@@ -43,9 +43,9 @@
             <!-- ========================================================= -->
             <div class="col-sm-8">
                 <main class="container-fluid">
-                    <div class="col-sm-12 col-md-6">
-                        <div class="row">
-                            <hr>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
                             <h2 class="col-sm-12 text-center" id="definition"><u>1 - Formulaire</u></h2>
                             <ul>
                                 <li>Un formulaire doit toujours être dans une balise <code>form</code> pour fonctionner.</li>
@@ -74,25 +74,25 @@
                                 </div>
                             </form><!-- fin du formulaire -->
                         </div><!-- fin du colonne -->
-                    </div><!-- fin de la rangée -->
 
-                    <div class="col-sm-12 col-md-6">
-                        <h2 class="col-sm-12 text-center" id="definition"><u>2 - Récupération des données</u></h2>
-                        <ul>
-                            <li>$_POST est une superglobale ui permet de récupérer les données saisies dans un formulaire.</li>
-                            <li>$_POST est donc un tableau (array) et il est disponilbe dans tous les contextes du script.</li>
-                            <li>le tableau $_POST se repmlit de la manière suivante: <code>$_POST = array(<br> "name1" => "valeur1" <br> "nameN" => "valeurN"</code></li>
-                            <li>Donc soit name1 ou nameN correspondent aux attributs "name" du formulaire, et où valeur1 et valeurN correspondent aux valeurs saisies par l'internaute.</li>
-                        </ul>
-                        <?php
-                        if(!empty($_POST)){  // si $_POST n'est pas vide, c'est qu'il est rempli et donc que le formulaire a été envoyé, notez qu'en l'état on peut l'envoyer avec des champs vides, les valeurs des $_POST étant alors des strings vides. En effet, on peut avoir des informations non-obligatoires dans un formulaire et les inputs ne seront donc jamais remplis.
-                            // jevar_dump($_POST);
-                            echo "<div class=\"alert alert-success w-75 mx-auto\"><p>Prénom: " . $_POST['prenom'] . "</p>";
-                            echo "<p>Nom: " . $_POST['nom'] . "</p>";
-                            echo "<p>Commentaire: " . $_POST['commentaire'] . "</p>";
-                        }
-                        ?>
-                    </div><!-- fin du colonne -->
+                        <div class="col-sm-12 col-md-6">
+                            <h2 class="col-sm-12 text-center" id="definition"><u>2 - Récupération des données</u></h2>
+                            <ul>
+                                <li>$_POST est une superglobale ui permet de récupérer les données saisies dans un formulaire.</li>
+                                <li>$_POST est donc un tableau (array) et il est disponilbe dans tous les contextes du script.</li>
+                                <li>le tableau $_POST se repmlit de la manière suivante: <code>$_POST = array(<br> "name1" => "valeur1" <br> "nameN" => "valeurN"</code></li>
+                                <li>Donc soit name1 ou nameN correspondent aux attributs "name" du formulaire, et où valeur1 et valeurN correspondent aux valeurs saisies par l'internaute.</li>
+                            </ul>
+                            <?php
+                            if (!empty($_POST)) {  // si $_POST n'est pas vide, c'est qu'il est rempli et donc que le formulaire a été envoyé, notez qu'en l'état on peut l'envoyer avec des champs vides, les valeurs des $_POST étant alors des strings vides. En effet, on peut avoir des informations non-obligatoires dans un formulaire et les inputs ne seront donc jamais remplis.
+                                // jevar_dump($_POST);
+                                echo "<div class=\"alert alert-success w-75 mx-auto\"><p>Prénom: " . $_POST['prenom'] . "</p>";
+                                echo "<p>Nom: " . $_POST['nom'] . "</p>";
+                                echo "<p>Commentaire: " . $_POST['commentaire'] . "</p>";
+                            }
+                            ?>
+                        </div><!-- fin du colonne -->
+                    </div><!-- fin de la rangée -->
                 </main>
             </div>
             <!-- FIN DU CONTENU PRINCIPAL -->
