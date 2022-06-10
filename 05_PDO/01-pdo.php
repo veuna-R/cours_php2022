@@ -149,6 +149,13 @@
                             $requete = $pdoENT->query("SELECT * FROM employes ORDER  BY nom ASC");
                             $nbr_employes = $requete->rowCount();
                             echo "<h2 class=\"text-center\">Il y a " . $nbr_employes . " employés dans l'entreprise.</h2>";
+                            echo "<table class=\"table table-striped table-bordered\">";
+                            echo "<thead class=\"thead-dark\">";
+                            echo "<tr>";
+                            echo "<th>ID</th>";
+                            while ($colonne = $requete->getColumnMeta(0)) {
+                                echo "<th>" . $colonne['name'] . "</th>";
+                            }
                             ?>
                         </div>
 
