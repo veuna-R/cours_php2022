@@ -34,7 +34,7 @@
 
         <li><a href="../05_PDO/01-pdo.php">PHP Data Object</a></li>
 
-        <li><a href="../06_cookies/cookies.php">Les cookies</a></li>
+        <li><a href="../06 _cookies/cookies.php">Les cookies</a></li>
 
         <li><a href="../07_session/01-session.php">La session</a></li>
 
