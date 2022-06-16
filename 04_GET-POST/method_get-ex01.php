@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
 
-    <title>Cours PHP7 - Exos pratiques - 1</title>
+    <title>Cours PHP2022 - Exos pratiques - 1</title>
 
     <!-- mes styles -->
     <link rel="stylesheet" href="../css/style.css">

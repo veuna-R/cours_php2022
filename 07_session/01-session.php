@@ -18,7 +18,7 @@ session_start(); // permet de créer un fichier de session avec son identifiant 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
 
-    <title>Cours_php7 - $_SESSION</title>
+    <title>Cours_php2022 - $_SESSION</title>
     <!-- Mes styles -->
     <link rel="stylesheet" href="../css/style.css">
 

@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
 
-    <title>Cours_php7 - PDO</title>
+    <title>Cours_php2022 - PDO</title>
     <!-- Mes styles -->
     <link rel="stylesheet" href="../css/style.css">
 
@@ -25,7 +25,7 @@
     <div class="row">
         <!-- JUMBOTRON -->
         <div class="jumbotron bg-secondary text-center">
-            <h1 class="display-3 pt-3">Cours_php7 - PDO</h1>
+            <h1 class="display-3 pt-3">Cours_php2022 - PDO</h1>
             <hr>
             <p class="lead pb-3">La variable "$pdo" est un objet qui répresente la connexidon à une BDD.</p>
         </div>

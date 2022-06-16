@@ -24,7 +24,7 @@
     <div class="bg-light">
         <!-- JUMBOTRON -->
         <div class="jumbotron text-center">
-            <h1 class="display-3">Cours PHP 7 - Les conditions</h1>
+            <h1 class="display-3">Cours PHP2022 - Les conditions</h1>
             <hr>
             <p class="lead bg-light">On retrouve dans PHP la plupart des instructions de conrtrôle des scripts. Indispensables à la gestion du déroulement d'un algorithme quelconque, ces instructions sont présentes dans tous les langages. PHP utilise un syntaxe très proche de celle du langage C. Ceux qui sont déjà pratiqué un langage tel que le C ou plus simplement JavaScript seront en pays de connaissance.</p>
         </div>
