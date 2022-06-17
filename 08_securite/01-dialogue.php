@@ -61,7 +61,9 @@ require_once('../inc/functions.php');
                                     <input type="email" class="form-control" id="email" name="email" placeholder="Votre email">
                                 </div> -->
                                 <br>
-                                <button type="submit" class="btn btn-primary text-center">Envoyer</button>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary text-center">Envoyer</button>
+                                </div>
                             </form>
                         </div><!-- fin de la colonne -->
                         <div class="col-sm-12 col-md-6">
@@ -101,7 +103,7 @@ require_once('../inc/functions.php');
                         <h2 class="col-sm-12 text-center">2 - Exercises</h2>
                         <div class="col-sm-12">
                             <p class="text-center">Compter les commentaires de la base de données dialogue et les afficer dans un tableau.</p>
-                            <div class="alert alert-success">
+                            <div class="alert alert-light">
                                 <?php
                                 $requete = $pdoDialogue->query("SELECT * FROM commentaire");
                                 $nbr_commentaires = $requete->rowCount();
