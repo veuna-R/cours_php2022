@@ -50,11 +50,11 @@ require_once('../inc/functions.php');
                             <form action="?action=envoyer" method="GET">
                                 <div class="form-group">
                                     <label for="pseudo"></label>
-                                    <input type="text" class="form-control" id="pseudo" name="pseudo" placeholder="Votre pseudo doit contenir mois de 20 caractères.">
+                                    <input type="text" class="form-control" id="pseudo" name="pseudo" placeholder="pseudo (mois de 20 caractères)">
                                 </div>
                                 <div class="form-group">
                                     <label for="commentaire"></label>
-                                    <textarea type="message" class="form-control" id="prenom" name="commentaire" rows="5" placeholder="Veuillez laisser-ici votre conmmentaire."></textarea>
+                                    <textarea type="message" class="form-control" id="prenom" name="commentaire" rows="5" placeholder="Laisser-ici votre conmmentaire."></textarea>
                                 </div>
                                 <!-- <div class="form-group">
                                     <label for="email"></label>
