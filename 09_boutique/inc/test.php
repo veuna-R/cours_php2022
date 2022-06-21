@@ -13,6 +13,7 @@
 
     require_once('functions.php');
     jeprint_r($requete);
+    var_dump($requete);
     echo "<p>Les infos de notre premier membre :</p>";
     echo "<ul>";
     echo "  <li>Prénom : ".$ligne['prenom']. "</li>
