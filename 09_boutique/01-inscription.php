@@ -1,5 +1,5 @@
 <?php
-require_once('./init.php');
+require_once('./inc/init.php');
 // jeprint_r($_SESSION);
 
 if (!empty($_POST)) {
@@ -46,30 +46,29 @@ if (!empty($_POST)) {
 <body>
   <main class="container m-4 mx-auto p-4">
     <div class="row">
-      <div class="col-md-9 col-sm-12">
+      <div class="col-md-6 col-sm-12">
         <h1 class="text-center">La Boutique - Inscrivez-vous!</h1>
         <form action="" method="POST" class="w-75 mx-auto">
 
           <div class="form-group">
             <label for="pseudo"></label>
-            <input type="text" class="form-control" id="pseudo" name="pseudo" placeholder="Pseudo" value="<?php echo $_POST['pseudo'] ?? ''; ?>" required>
+            <input type="text" class="form-control" id="pseudo" name="pseudo" placeholder="Pseudo"  required>
           </div>
           <div class="form-group">
             <label for="mdp"></label>
-            <input type="password" class="form-control" id="mdp" name="mdp" placeholder="Mot de passe" value="<?php echo $_POST['pseudo'] ?? ''; ?>" required>
-            <small>Votre mot de passe doit contenire entre 8 et 20 caractères</small>
+            <input type="password" class="form-control" id="mdp" name="mdp" placeholder="Mot de passe (entre 8 et 20 caractères)"  required>
           </div>
           <div class="form-group">
             <label for="nom"></label>
-            <input type="text" class="form-control" id="nom" name="nom" placeholder="Nom" value="<?php echo $_POST['nom'] ?? ''; ?>" required>
+            <input type="text" class="form-control" id="nom" name="nom" placeholder="Nom" required>
           </div>
           <div class="form-group">
             <label for="prenom"></label>
-            <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Prenom" value="<?php echo $_POST['prenom'] ?? ''; ?>" required>
+            <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Prenom"  required>
           </div>
           <div class="form-group">
             <label for="email"></label>
-            <input type="email" class="form-control" id="email" name="email" placeholder="E-mail" value="<?php echo $_POST['email'] ?? ''; ?>" required>
+            <input type="email" class="form-control" id="email" name="email" placeholder="E-mail"  required>
           </div>
           <div class="form-group">
             <label for="civilite"></label>
@@ -81,19 +80,22 @@ if (!empty($_POST)) {
           </div>
           <div class="form-group">
             <label for="adresse"></label>
-            <input type="text" class="form-control" id="adresse" name="adresse" placeholder="Adresse" value="<?php echo $_POST['adresse'] ?? ''; ?>" required>
+            <input type="text" class="form-control" id="adresse" name="adresse" placeholder="Adresse"  required>
           </div>
           <div class="form-group">
             <label for="code_postal"></label>
-            <input type="text" class="form-control" id="code_postal" name="code_postal" placeholder="Code postal" value="<?php echo $_POST['code_postal'] ?? ''; ?>" required>
+            <input type="text" class="form-control" id="code_postal" name="code_postal" placeholder="Code postal"  required>
           </div>
           <div class="form-group">
             <label for="ville"></label>
-            <input type="text" class="form-control" id="ville" name="ville" placeholder="Ville" value="<?php echo $_POST['ville'] ?? ''; ?>" required>
+            <input type="text" class="form-control" id="ville" name="ville" placeholder="Ville"  required>
+          </div><br>
+
+          <div class="text-center">
+            <input type="submit" class="btn btn-primary my-2">
+            <input type="reset" class="btn btn-danger my-2">
           </div>
 
-          <input type="submit" class="btn btn-info my-2">
-          <input type="reset" class="btn btn-info my-2">
         </form>
       </div>
     </div>
